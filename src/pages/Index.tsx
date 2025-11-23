@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Mail, Phone, Github, Facebook, Instagram, Youtube, Linkedin, Twitter, Home, Code, Palette, Video, Monitor, FileText, BarChart, Loader2, MessageCircle } from 'lucide-react';
+import { Mail, Phone, Github, Facebook, Instagram, Youtube, Linkedin, Twitter, Home, Code, Palette, Video, Monitor, FileText, BarChart, Loader2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -334,30 +334,6 @@ const Index = () => {
                     <a href="https://github.com/GOUROB2319" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 p-3 bg-gray-100 dark:bg-gray-700 rounded-lg hover:scale-105 transition-transform">
                       <Github className="h-5 w-5 text-gray-600 dark:text-gray-300" />
                       <span className="text-sm text-gray-800 dark:text-gray-200">GitHub</span>
-                    </a>
-                  </div>
-                </Card>
-                
-                <Card className="p-6 bg-white/60 dark:bg-gray-800/60 backdrop-blur-md border-0 shadow-xl hover:scale-105 transition-transform duration-300">
-                  <h3 className="text-xl font-bold mb-4 text-gray-800 dark:text-white">যোগাযোগ করুন</h3>
-                  <div className="flex gap-4">
-                    <a 
-                      href="https://wa.me/8801516352465" 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      className="flex-1 flex items-center justify-center gap-2 p-4 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-lg hover:scale-105 hover:shadow-xl transition-all duration-300"
-                    >
-                      <Phone className="h-5 w-5" />
-                      <span className="font-medium">WhatsApp</span>
-                    </a>
-                    <a 
-                      href="https://m.me/gourob23" 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      className="flex-1 flex items-center justify-center gap-2 p-4 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:scale-105 hover:shadow-xl transition-all duration-300"
-                    >
-                      <MessageCircle className="h-5 w-5" />
-                      <span className="font-medium">Messenger</span>
                     </a>
                   </div>
                 </Card>
